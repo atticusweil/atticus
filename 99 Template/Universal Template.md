@@ -1,0 +1,5 @@
+---
+title:
+type:
+draft: false
+---

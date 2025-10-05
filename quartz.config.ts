@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Atticus Notes",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -56,9 +56,7 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git", "filesystem"],
-      }),
+
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -89,7 +87,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+     // Plugin.CustomOgImages(),
     ],
   },
 }
