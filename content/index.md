@@ -13,4 +13,4 @@ See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 ## Articles 
 - [[Quant Firm’s $1 Billion Code Is Focus of Rare Criminal Case]]
 
-Click here for more [[ZZ - All Articles]]
+Click here for more [[Articles]]
