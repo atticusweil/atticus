@@ -1,5 +1,5 @@
 ---
-title: Processing Zone
+title: Notes Buffering
 type: Dashboard
 draft: false
 ---
